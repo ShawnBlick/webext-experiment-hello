@@ -7,9 +7,14 @@
       {
         "name": "hello",
         "type": "function",
-        "description": "Returns the string \"Hello, world\"",
-        "async": true,
-        "parameters": []
+        "async": "callback",
+        "parameters": [
+          {
+            "name": "callback",
+            "type": "function",
+            "parameters": []
+          }
+        ]
       }
     ]
   }
